@@ -32,7 +32,7 @@ app.use("/images", express.static(path.join(__dirname,"/images")));
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://reactblog3f.onrender.com',
   methods: ['GET', 'POST', 'DELETE', 'PUT'],      
   allowedHeaders: ['Content-Type'], 
   credentials: true              
